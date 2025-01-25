@@ -6,6 +6,7 @@ const validUsername         = /^[a-zA-Z0-9_]{1,16}$/
 const basicEmail            = /^\S+@\S+\.\S+$/
 //const validEmail          = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
 // Login Elements
+
 const loginCancelContainer  = document.getElementById('loginCancelContainer')
 const loginCancelButton     = document.getElementById('loginCancelButton')
 const loginEmailError       = document.getElementById('loginEmailError')
