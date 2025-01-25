@@ -306,7 +306,6 @@ function showLaunchFailure(title, desc){
  * @param {boolean} launchAfter Whether we should begin to launch after scanning. 
  */
 async function asyncSystemScan(effectiveJavaOptions, launchAfter = true){
-
     setLaunchDetails(Lang.queryJS('landing.systemScan.checking'))
     toggleLaunchArea(true)
     setLaunchPercentage(0, 100)
